@@ -37,6 +37,9 @@ const Header = () => {
             <a href="#experience" className="hover:text-gray-300 py-2 md:py-0">Experience</a>
           </li>
           <li>
+            <a href="#certificate" className="hover:text-gray-300 py-2 md:py-0">Certifications</a>
+          </li>
+          <li>
             <a href="#contact" className="hover:text-gray-300 py-2 md:py-0">Contact</a>
           </li>
         </ul>

@@ -44,6 +44,7 @@ import Header from './Components/Sidebar';
 import './App.css';
 import Footer from './Components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom'; // Ensure Router is included
+import Certification from './Components/Certification';
  
 function App() {
   return (
@@ -68,6 +69,9 @@ function App() {
           </section>
           <section id="experience">
             <Experience />
+          </section>
+          <section id="certificate">
+            <Certification/>
           </section>
           <section id="contact">
             <Contact />
